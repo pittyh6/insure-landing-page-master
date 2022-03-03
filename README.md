@@ -8,7 +8,7 @@
 * Insure landing page master [link](https://github.com/pittyh6/insure-landing-page-master)
 
 ## Management Tools
-* Jira(Sprints) [link](https://github.com/pittyh6/project_tracking_intro_component/tree/main/Sprint2)
+* Jira(Sprints) [link](https://github.com/pittyh6/insure-landing-page-master/tree/master/Sprint2)
 ### Result
 ![Middle Banner](Documentation/Under_Development.gif)
 
