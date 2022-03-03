@@ -1,4 +1,4 @@
-# Project Tracking Intro Component
+# Project Insure Landing Page Master
 
 ![Begin Banner](Documentation/top-1200x350.gif)
 
