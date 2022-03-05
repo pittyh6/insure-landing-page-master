@@ -40,9 +40,7 @@ a{
 .upperLetter{ 
     text-transform: uppercase;
 }
-.container{
-    margin: 0 165px;
-}
+
 .btn-dark{    
     border: 1px solid var(--Very_Dark_Violet);
     color: var(--Very_Dark_Violet);
@@ -52,6 +50,9 @@ a{
     border: 1px solid var(--white);
     color: var(--white);
     padding: 15px 26px;
+}
+.container{
+    margin: 0 165px;
 }
 nav{
     align-items: center;
