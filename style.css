@@ -30,7 +30,7 @@ html, body{
     height: 100%;
     width: 100%;
 }
-.header, .how-we-work, .plans{
+.header, .how-we-work, .plans, .blog{
     padding: 0 165px;
 }
 h1{    
@@ -154,6 +154,27 @@ main > .background{
 }
 
 /*Section 3 - Blog */
+.blog .background{    
+    height: 15%;
+    width: 75%;    
+}
+.sec-blog { 
+    display: flex;
+    flex-wrap: wrap
+}
+.sec-blog h1{ 
+    padding-right: 0;
+    padding-left:80px;
+    font-size: 57px;
+}
+.sec-blog > div{
+    flex: 1 1 300px;
+}
+.sec-blog .btn-light{ 
+    position: absolute;
+    bottom: 61px;
+    right: 350px;
+}
 
 
 
