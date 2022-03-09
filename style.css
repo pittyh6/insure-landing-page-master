@@ -30,6 +30,18 @@ html, body{
     height: 100%;
     width: 100%;
 }
+h1{
+    font-family: var(--DM_Serif_Display);
+    font-weight: var(--weight_400);
+    font-size: 60px;
+    padding-right: 25%;
+    margin-bottom:5px;
+}
+p{
+    line-height: 1.5;
+    padding-right: 33px;
+    margin:0;
+}
 ul,li,
 a{      
     display: inline;
@@ -37,37 +49,88 @@ a{
     list-style: none; 
     margin:0;
 }
+hr{
+    color: var(--Dark_Grayish_Violet);
+    margin: 0;
+    width: 150px;
+}
 .upperLetter{ 
     text-transform: uppercase;
+}
+.btn-dark, .btn-light{
+    padding: 15px 26px;
 }
 
 .btn-dark{    
     border: 1px solid var(--Very_Dark_Violet);
-    color: var(--Very_Dark_Violet);
-    padding: 15px 26px;
+    color: var(--Very_Dark_Violet);    
 }
 .btn-light{
     border: 1px solid var(--white);
     color: var(--white);
-    padding: 15px 26px;
 }
-.container{
-    margin: 0 165px;
+.header, .how-we-work{
+    padding: 0 165px;
 }
-nav{
-    align-items: center;
-    display: grid;
+/* NAVBAR */
+.header{
+    align-items: center;    
     font-weight: var(--weight_700);
-    grid-template-columns: 1fr 1fr;
-    height: 80px;   
-    
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    height: 20vh;   
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white);
+    position: relative;
+    z-index: 1;
 }
 nav > ul li a{
     color: var(--Dark_Grayish_Violet);
     padding: 0 13.5px;
 }
+/* MAIN */
+/*Section 1 - How we work */
+main{
+    position: relative;
+    color: var(--white);
+}
+.background{ 
+    background-color: var(--Dark_Violet);  
+    position: absolute;
+    z-index: -1;
+    height: 65%;
+    width: 100%;
+}
+.img-bg{
+    position: absolute;
+}
+.img-bg-left{
+    top: 47%;
+}
+.img-bg-right{
+    left: 71%;
+    bottom: 47%;
+}
+.how-we-work{
+    height: 875px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 110px;
+}
+.how-we-work > div{
+    flex: 1 1;
+}
+.h-w-w-right{
+    float: right;
+    
+}
+.h-w-w-left a {
+    position: absolute;
+    margin-top: 35px;
+}
 
-
+/*Section 2 - Plans */
 
 
 
