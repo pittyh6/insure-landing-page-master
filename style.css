@@ -30,12 +30,14 @@ html, body{
     height: 100%;
     width: 100%;
 }
-h1{
-    font-family: var(--DM_Serif_Display);
-    font-weight: var(--weight_400);
+h1{    
     font-size: 60px;
     padding-right: 25%;
     margin-bottom:5px;
+}
+h1, h4{
+    font-family: var(--DM_Serif_Display);
+    font-weight: var(--weight_400);
 }
 p{
     line-height: 1.5;
@@ -53,6 +55,7 @@ hr{
     color: var(--Dark_Grayish_Violet);
     margin: 0;
     width: 150px;
+    height:0px;
 }
 .upperLetter{ 
     text-transform: uppercase;
@@ -69,7 +72,7 @@ hr{
     border: 1px solid var(--white);
     color: var(--white);
 }
-.header, .how-we-work{
+.header, .how-we-work, .plans{
     padding: 0 165px;
 }
 /* NAVBAR */
@@ -99,21 +102,21 @@ main{
     background-color: var(--Dark_Violet);  
     position: absolute;
     z-index: -1;
-    height: 65%;
+    height: 610px;
     width: 100%;
 }
 .img-bg{
     position: absolute;
 }
 .img-bg-left{
-    top: 47%;
+    top: 430px;
 }
 .img-bg-right{
     left: 71%;
-    bottom: 47%;
+    top: -70px;
 }
 .how-we-work{
-    height: 875px;
+    height: 790px;
     display: flex;
     flex-wrap: wrap;
     padding-top: 110px;
@@ -131,8 +134,22 @@ main{
 }
 
 /*Section 2 - Plans */
+.h1-dark, h4{
+    color: var(--Very_Dark_Violet);
+}
+.plans{ 
+    height: 600px;
+    color: var(--Dark_Grayish_Violet);
+}
+.sec-plans{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec-plans > div{
+    flex: 1 1 200px;
+}
 
-
+/*Section 3 - Blog */
 
 
 
