@@ -30,7 +30,7 @@ html, body{
     height: 100%;
     width: 100%;
 }
-.header, .how-we-work, .plans, .blog{
+.header, .how-we-work, .plans, .blog, .social-media, .footer-links{
     padding: 0 165px;
 }
 h1{    
@@ -42,6 +42,10 @@ h1, h4{
     font-family: var(--DM_Serif_Display);
     font-weight: var(--weight_400);
 }
+h5{
+    color: var(--Dark_Grayish_Violet);
+    font-size: 16px;
+}
 p{
     line-height: 1.5;
     padding-right: 33px;
@@ -49,7 +53,7 @@ p{
 }
 ul,li,
 a{      
-    display: inline;
+    
     text-decoration: none;
     list-style: none; 
     margin:0;
@@ -94,6 +98,10 @@ hr{
     background-color: var(--white);
     position: relative;
     z-index: 1;
+}
+header li, 
+footer .footer-ul-social-icons li{
+    display: inline;
 }
 nav > ul li a{
     color: var(--Dark_Grayish_Violet);
@@ -142,7 +150,7 @@ main > .background{
     color: var(--Very_Dark_Violet);
 }
 .plans{ 
-    height: 600px;
+    height: 500px;
     color: var(--Dark_Grayish_Violet);
 }
 .sec-plans{
@@ -176,14 +184,61 @@ main > .background{
     right: 350px;
 }
 
+/* FOOTER */
+footer{   
+    background-color: var(--Very_Light_Gray);
+    background-image: url("./images/bg-pattern-footer-desktop.svg");
+    background-repeat: no-repeat;
+    height:400px;
+    margin-top: 150px;
+    position: relative;
+    font-size: 15px;
+}
+footer hr{ 
+    width: 95%;
+    top: 25px;
+    position: relative;
+    
+}
+.social-media hr{
+    color: var(--Very_Light_Gray);
+}
+.social-media, .footer-links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-media > div{
+    flex: 1 1 50%;
+}
 
+.footer-links > div{
+    flex: 1 1 200px;
+}
 
-
-
-
-
-
-
+footer ul{
+    padding: 0;
+}
+.social-media{
+    padding-top: 70px;
+}
+.social-media ul li img{
+    padding: 0 7.5px;   
+}
+.footer-ul-social-icons{
+    float: right;
+    padding-right: 10%;
+}
+.footer-links{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.footer-links  a{
+    color: var(--Dark_Violet);
+    font-weight: var(--weight_700);
+}
+.footer-links li{
+    padding-bottom: 22px;
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
