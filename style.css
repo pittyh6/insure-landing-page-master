@@ -158,7 +158,7 @@ main > .background{
     flex-wrap: wrap;
 }
 .sec-plans > div{
-    flex: 1 1 200px;
+    flex: 1 1 300px;
 }
 
 /*Section 3 - Blog */
@@ -208,7 +208,7 @@ footer hr{
     flex-wrap: wrap;
 }
 .social-media > div{
-    flex: 1 1 50%;
+    flex: 1 1 300px;
 }
 
 .footer-links > div{

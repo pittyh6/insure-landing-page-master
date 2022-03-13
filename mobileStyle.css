@@ -1,0 +1,17 @@
+@media(max-width:500px){
+    .header, .how-we-work, .plans, .blog, .social-media, .footer-links{
+        padding: 0;
+    }
+    .h-w-w-right{
+        order: 1;
+    }
+    .h-w-w-left{
+        order: 2;
+    }
+    main > .background{ 
+        top: 39%;
+    }
+    .h-w-w-left hr{
+        display: none;
+    }
+}
