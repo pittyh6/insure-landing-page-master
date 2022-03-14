@@ -14,4 +14,8 @@
     .h-w-w-left hr{
         display: none;
     }
+
+    .img-bg-right{
+        top: 41%;
+    }
 }
